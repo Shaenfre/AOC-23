@@ -39,6 +39,7 @@ def part2(input):
    dist_r = re.findall(r'\d+', dist_str)
 
    time = int("".join(t for t in time_r)) 
+   
    dist = int("".join(d for d in dist_r)) 
 
    print(time, dist)
